@@ -1,2 +1,2 @@
-# comp484-hw8-main-TyraQuiachon
-Homework 8 for COMP 484
+# comp484-hw6-main-TyraQuiachon
+Homework for COMP 484 - Personal Resume

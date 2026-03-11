@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+/* colors used
+#C599B6 - mauve purple
+#FAD0C4 - peachy
+#FFF7F3 - off white/egshell
+#E6B2BA - light pink
+*/
+
+/* global */
+body {
+    background: #FFF7F3;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding-top: 50px;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+header h1 {
+    color: #FFFFFF;
+    margin: 0;
+}
+
+header h2 {
+    color: #FAD0C4;
+    margin: 0;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+    border-left: 4px solid #E6B2BA;
+    padding-left: 10px;
+}
+
+p {
+    font-weight: 400;
+}
+
+ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+/* h8 nav bar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #E6B2BA;
+    z-index: 999;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    color: #FFF7F3;
+    text-decoration: none;
+}
+/* h8 nav bar */
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+    padding-top: 20px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+.column-narrow, .column-wide {
+    margin-bottom: 30px;
+}
+
+/* header, footer */
+header {
+    background: #C599B6;
+    color: #FFF7F3;
+    padding: 60px 0;
+}
+
+footer {
+    background: #C599B6;
+    color: #FFF7F3;
+    text-align: center;
+}
+
+footer a {
+    color: #FFF7F3;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+    border-right: 1px solid #FFF7F3;
+}
+
+.contact-info a:last-child {
+    border-right: none;
+}
+
+/* experience */
+.work-experience {
+    background: #FFF7F3;
+}
+
+.work-experience, .education {
+    padding: 60px 0;
+}
+
+/* education */
+
+/* background for hw8 */
+.education {
+    background-image: linear-gradient(
+        rgba(197, 153, 182, 0.5),
+        rgba(197, 153, 182, 0.5)
+    ), url('../images/studio_ghibli_background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.education h3 {
+    font-size: 24px;
+    color: #ffffff;
+    border-left: 4px solid #C599B6;
+    padding-left: 10px;
+}
+
+.education p {
+    color: #000000;
+    text-shadow: none;
+}
+
+/* pic */
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
