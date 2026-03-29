@@ -147,6 +147,7 @@ footer a {
     ), url('../images/studio_ghibli_background.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed; /* parallax effect ? for hw 8 (requested in lecture) */
     color: #ffffff;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
